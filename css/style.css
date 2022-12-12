@@ -1,3 +1,44 @@
+/* GENERAL */
 body {
     background-color: #eff0f3;
+}
+
+
+/* NAVBAR */
+nav {
+    background-color: #ff8e3c;
+    position: fixed;
+    padding: 0.4em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #d9376e;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    gap: 3.5em;
+    letter-spacing: 0.06em;
+}
+
+nav a {
+    padding: 0.4em;
+    color: #0d0d0d;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    background-color: #eff0f3;
+    border-radius: 0.3em;
+
+    
+}
+
+
+/* HEADER */
+header {
+    /* pour pallier à la position fixe de la navbar */
+    margin-top: 50px;
+    background-color: #ff8e3c;
 }
