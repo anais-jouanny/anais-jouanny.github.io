@@ -1,87 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 
-    <title>CV Anaïs Jouanny</title>
-    <meta name="description" content="Bienvenue sur mon CV GitHub">
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
-    <link rel="shortcut icon" href="../ressources/img/favicon.png" type="image/png">
-</head>
-<body>
-    <nav>
-        <a href="">Home</a>
-        <a href="">Compétences</a>
-        <a href="">Expériences</a>
-        <a href="">Formations</a>
-        <a href="">Portfolio</a>
-        <a href="">Formulaire</a>
-    </nav>
-
-    <header>
-        <!-- <img src="../ressources/img/IMG_1511.JPG" alt=""> -->
-        <h1>Hello, moi c'est Anaïs</h1>
-        <h2>Future Développeuse</h2>
-        <a href="" target="_blank">Télécharger le CV</a>
-        <hr>
-    </header>
-
-    <section id="skills">
-        <h2>Compétences</h2>
-        <div id="skills-tech">
-            <h3>Techniques</h3>
-        </div>
-        <div id="skills-mark">
-            <h3>Marketing</h3>
-        </div>
-        <div id="skills-soft">
-            <h3>Soft</h3>
-        </div>
-    </section>
-
-    <section id="xp"></section>
-    <section id="education"></section>
-    <section id="portfolio"></section>
-
-
-    <section>
-        <section id="client">
-            <h2>Client</h2>
-            <ul>
-                <li>HTML : Contenu et Sémantique</li>
-                <li>CSS : Sélecteurs et Pseudo-classes</li>
-                <li>CSS : le Box Model et les Positions</li>
-                <li>CSS : Flexbox et Grid</li>
-                <li>CSS : le Responsive Web Design</li>
-            </ul>
-        </section>
-        <hr>
-
-        <section id="server">
-            <h2>Server : PHP</h2>
-            <ul>
-                <li>Sémantique PHP</li>
-                <li>Algorithmie</li>
-                <li>Templating</li>
-                <li>Formulaires</li>
-            </ul>
-        </section>
-        <hr>
-
-        <section id="interactions">
-            <h2>Intéractions : Javascript</h2>
-            <ul>
-                <li>Sémantique JS</li>
-                <li>Manipulation du DOM</li>
-
-            </ul>
-        </section>
-        <hr>
-
+        <title>CV Anaïs Jouanny</title>
+        <meta name="description" content="Bienvenue sur mon CV GitHub">
         
-    </section>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../ressources/img/favicon.png" type="image/png">
+    </head>
 
-</body>
+    <body data-bs-spy="scroll" data-bs-target="#navbar">
+
+        <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="">Compétences</a>
+                        <a class="nav-link" href="">Expériences</a>
+                        <a class="nav-link" href="">Formations</a>
+                        <a class="nav-link" href="">Portfolio</a>
+                        <a class="nav-link" href="">Formulaire</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <header class="d-flex justify-content-center">
+            <img src="../ressources/img/IMG_1511.JPG" class="img-fluid img-thumbnail" alt="photo-anaïs" loading="lazy">
+            <div id="about">
+                <h1>Hello, moi c'est Anaïs</h1>
+                <h2>Future Développeuse</h2>
+                <a href="" target="_blank">Télécharger le CV</a>
+            </div>
+        </header>
+    
+        <section id="skills">
+            <h2>Compétences</h2>
+            <div id="skills-tech">
+                <h3>Techniques</h3>
+            </div>
+            <div id="skills-mark">
+                <h3>Marketing</h3>
+            </div>
+            <div id="skills-soft">
+                <h3>Soft</h3>
+            </div>
+        </section>
+    
+        <section id="xp"></section>
+        <section id="education"></section>
+        <section id="portfolio"></section>
+    
+    
+        <section>
+            <section id="client">
+                <h2>Client</h2>
+                <ul>
+                    <li>HTML : Contenu et Sémantique</li>
+                    <li>CSS : Sélecteurs et Pseudo-classes</li>
+                    <li>CSS : le Box Model et les Positions</li>
+                    <li>CSS : Flexbox et Grid</li>
+                    <li>CSS : le Responsive Web Design</li>
+                </ul>
+            </section>
+            <hr>
+    
+            <section id="server">
+                <h2>Server : PHP</h2>
+                <ul>
+                    <li>Sémantique PHP</li>
+                    <li>Algorithmie</li>
+                    <li>Templating</li>
+                    <li>Formulaires</li>
+                </ul>
+            </section>
+            <hr>
+    
+            <section id="interactions">
+                <h2>Intéractions : Javascript</h2>
+                <ul>
+                    <li>Sémantique JS</li>
+                    <li>Manipulation du DOM</li>
+    
+                </ul>
+            </section>
+            <hr>
+    
+            
+        </section>
+        
+
+
+    </body>
 </html>
