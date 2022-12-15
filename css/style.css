@@ -5,13 +5,27 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #ff8e3c;
     font-weight: bolder;
 }
 
 h2 {
     font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.divider {
+    width: 80px;
+    height: 2px;
+    background-color: #ff8e3c;
+    margin: 0em auto 0.7em;
+}
+
+section {
+    margin: 2em auto;
 }
 
 
@@ -48,4 +62,31 @@ header {
 .img-thumbnail {
     max-width: 9em;
     height: auto;
+    margin-right: 2em;
+}
+
+#about h2 {
+    margin: .5em 0;
+}
+
+#about a {
+    text-decoration: none;
+    margin-top: .5em;
+    color: #0d0d0d;
+    font-size:x-small;
+    padding: .3em;
+    text-transform: uppercase;
+    border: 1px solid #ff8e3c;
+    border-radius: .3em;
+}
+
+#about a:hover {
+    background-color: #ff8e3c;
+}
+
+
+/* SKILLS */
+.skills-wrapper {
+    display: flex;
+    justify-content: center;
 }
