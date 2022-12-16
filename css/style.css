@@ -14,7 +14,15 @@ h2 {
     font-size: 1.2em;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bolder;
     margin-bottom: 2em;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #ff8e3c;
+    text-align: center;
+    margin-bottom: .7em;
 }
 
 .divider {
@@ -67,6 +75,7 @@ header {
 
 #about h2 {
     margin: .5em 0;
+    text-align: start;
 }
 
 #about a {
@@ -86,7 +95,24 @@ header {
 
 
 /* SKILLS */
-.skills-wrapper {
-    display: flex;
-    justify-content: center;
+.skills-wrapper > * {
+    padding: 0 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.progress-bar {
+    background-color: #ff8e3c;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.progress {
+    margin-bottom: 1em;
+    height: 2em;
+}
+
+#skills-tech a {
+    font-style: italic;
+    font-size: .8em;
+    color: #363636;
 }
