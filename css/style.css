@@ -124,7 +124,42 @@ header {
 }
 
 .vr {
-    background-color: red;
-    height: 50em;
+    background-color: #ff8e3c;
     width: .3em;
+    opacity: 1;
 }
+
+.vr > * {
+    margin: 3em 0;
+}
+
+.triangle {
+    width  : 0;
+    height : 0;
+    border-top    : .6em solid transparent;
+    border-bottom : .6em solid transparent;
+    border-right  : 1.2em solid #ff8e3c;
+    margin-left: .5em;
+}
+
+.xp-card {
+    background-color: #ff8e3c;
+    border-radius: .3em;
+    padding: 1em;
+}
+
+.xp-card h3 {
+    color: #eff0f3;
+    font-weight: bold;
+    text-align: left;
+}
+
+.xp-card h4 {
+    font-weight: bold;
+}
+
+.xp-card h5 {
+    color: #d9376e;
+}
+
+
