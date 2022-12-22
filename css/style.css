@@ -36,6 +36,17 @@ section {
     padding: .5em;
 }
 
+.button-href {
+    text-decoration: none;
+    margin-top: .5em;
+    color: #0d0d0d;
+    font-size:x-small;
+    padding: .3em;
+    text-transform: uppercase;
+    border: 1px solid #ff8e3c;
+    border-radius: .3em;
+}
+
 
 /* NAVBAR */
 #navbar {
@@ -78,19 +89,9 @@ header {
     text-align: start;
 }
 
-#about a {
-    text-decoration: none;
-    margin-top: .5em;
-    color: #0d0d0d;
-    font-size:x-small;
-    padding: .3em;
-    text-transform: uppercase;
-    border: 1px solid #ff8e3c;
-    border-radius: .3em;
-}
-
-#about a:hover {
+.button-href:hover {
     background-color: #ff8e3c;
+    color: #0d0d0d;
 }
 
 
@@ -230,6 +231,53 @@ header {
     margin: .4em 0;
     font-size: .9em;
 }
+
+/* EDUCATION */
+.education-block {
+    padding: 1em;
+    text-align: center;
+    background-color: #eff0f3;
+    width: 28%;
+    height: auto;
+    border-radius: .5em;
+}
+
+.education-block:first-child {
+    margin-right: 3em;
+}
+
+.education-block > * {
+    margin-bottom: .8em;
+}
+
+.education-block h3 {
+    font-size: 1.2em;
+}
+
+.education-block h4 {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.education-block h5 {
+    color: #d9376e;
+    font-size: .8em;
+}
+
+.education-block p {
+    font-size: .8em;
+}
+
+.education-block span.bi-award {
+    font-size: 2em;
+}
+
+.education-block span.bold {
+    font-weight: bold;
+}
+
+
+
 
 
 
