@@ -13,7 +13,7 @@
         
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="shortcut icon" href="../ressources/img/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/png">
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar">
@@ -26,10 +26,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="">Compétences</a>
-                        <a class="nav-link" href="">Expériences</a>
-                        <a class="nav-link" href="">Formations</a>
-                        <a class="nav-link" href="">Portfolio</a>
+                        <a class="nav-link" href="#skills">Compétences</a>
+                        <a class="nav-link" href="#xp">Expériences</a>
+                        <a class="nav-link" href="#education">Formations</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                         <a class="nav-link" href="">Formulaire</a>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
         </nav>
     
         <header class="d-flex justify-content-center align-items-center">
-            <img src="../ressources/img/photo.jpg" class="img-fluid img-thumbnail" alt="photo-anaïs" loading="lazy">
+            <img src="../assets/img/photo.jpg" class="img-fluid img-thumbnail" alt="photo-anaïs" loading="lazy">
             <div id="about">
                 <h1>Hello, moi c'est Anaïs</h1>
                 <h2>Future Développeuse</h2>
@@ -117,9 +117,9 @@
                             </div>
 
                             <div class="timeline-body">
-                                <p>Elaboration et mise en place de plans média online en accord avec les stratégies marché</p>
-                                <p>Création et Gestion des comptes Google ads sur chaque marché</p>
-                                <p>Gestion des leviers payants web et in-app</p>
+                                <p>Elaboration et mise en place de plans média online en accord avec les stratégies marché.</p>
+                                <p>Création et Gestion des comptes Google ads sur chaque marché.</p>
+                                <p>Gestion des leviers payants web et in-app.</p>
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,9 @@
                             </div>
 
                             <div class="timeline-body">
-                                <p>SEA : internalisation des comptes Google ads et Bing ads</p>
-                                <p>Gestion des leviers payants web et in-app</p>
-                                <p>SEO : pilotage de l'agence et définition de la roadmap</p>
+                                <p>SEA : internalisation des comptes Google ads et Bing ads.</p>
+                                <p>Gestion des leviers payants web et in-app.</p>
+                                <p>SEO : pilotage de l'agence et définition de la roadmap.</p>
                             </div>
                         </div>
                     </div>
@@ -153,9 +153,9 @@
                             </div>
 
                             <div class="timeline-body">
-                                <p>Programmation des campagnes Agences / Annonceurs</p>
-                                <p>Suivi du trafic et des performances des campagnes sur le réseau Ad6media</p>
-                                <p>Statistiques des campagnes par pays / format</p>
+                                <p>Programmation des campagnes Agences / Annonceurs.</p>
+                                <p>Suivi du trafic et des performances des campagnes sur le réseau Ad6media.</p>
+                                <p>Statistiques des campagnes par pays / format.</p>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,49 @@
         </section>
 
 
-        <section id="portfolio"> section portfolio</section>
+        <section id="portfolio">
+            <div class="divider"></div>
+            <h2>Portfolio</h2>
+
+            <div id="carouselIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="../assets/img/carrousel/lbcEmploi_SEA.png" target="blank">
+                            <img src="../assets/img/carrousel/couv_leboncoin_sea.png" class="d-block w-100 img-thumbnail" alt="leboncoin-SEA">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../assets/img/carrousel/BR_fb.PNG" target="blank">
+                            <img src="../assets/img/carrousel/couv_BR_facebook.png" class="d-block w-100 img-thumbnail" alt="Bloody_Rules-Facebook_ads">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../assets/img/carrousel/AVAL app.png" target="blank">
+                            <img src="../assets/img/carrousel/couv_avendrealouer_app.png" class="d-block w-100 img-thumbnail" alt="AVendreALouer-App_Download">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../assets/img/carrousel/Ohammam_SEA.png" target="blank">
+                            <img src="../assets/img/carrousel/couv_ohammam_sea.png" class="d-block w-100 img-thumbnail" alt="Ô_Hammam-SEA">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Suivant</span>
+                </button>
+            </div>
+        </section>
     
     
         <section>
