@@ -78,7 +78,7 @@ header {
     padding: .8em;
 }
 
-.img-thumbnail {
+header .img-thumbnail {
     max-width: 9em;
     height: auto;
     margin-right: 2em;
@@ -274,6 +274,37 @@ header {
 
 .education-block span.bold {
     font-weight: bold;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    background-color: #eff0f3;
+    margin-top: 4em;
+    padding-bottom: 3em;
+}
+
+#carouselIndicators {
+    margin: 0 auto;
+    max-width: 30em;
+}
+
+/* FOOTER */
+footer {
+    padding: .5em;
+    background-color: rgb(95, 94, 94);
+}
+
+.footer-button-top {
+    background-color: #d9376e;
+}
+
+.footer-button {
+    margin-right: 10em;
+}
+
+footer img {
+    width: 2em;
+    height: auto;
 }
 
 
