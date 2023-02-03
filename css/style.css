@@ -41,11 +41,15 @@ section {
     font-size:smaller;
     padding: .4em;
     text-transform: uppercase;
-    border: 1px solid #ff8e3c;
+    border: 2px solid #ff8e3c;
     border-radius: .3em;
     margin-right: .5em;
 }
 
+.button-href:hover {
+    background-color: #ff8e3c;
+    color: #0d0d0d;
+}
 
 /* NAVBAR */
 #navbar {
@@ -87,11 +91,6 @@ header .img-thumbnail {
 #about h2 {
     text-align: start;
     margin: .7em 0 1.5em 0;
-}
-
-.button-href:hover {
-    background-color: #ff8e3c;
-    color: #0d0d0d;
 }
 
 #about img {
@@ -299,9 +298,37 @@ header .img-thumbnail {
     padding-bottom: 3em;
 }
 
-#carouselIndicators {
-    margin: 0 auto;
-    max-width: 30em;
+#portfolio img {
+    height: 18em;
+    width: auto;
+}
+
+#portfolio .project {
+    margin: 1em;
+}
+
+#portfolio .project ul {
+    margin: .8em 0;
+}
+
+#portfolio .project-infos h3 {
+    text-align: start;
+    margin: .5em 0;
+    font-size: medium;
+}
+
+#portfolio .project-infos li {
+    margin: .3em 0;
+    font-size: .9em;
+}
+
+.button-code {
+    margin: 2em 0;
+    font-size: small;
+}
+
+.hidden {
+    display: none;
 }
 
 /* FOOTER */

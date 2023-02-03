@@ -39,7 +39,7 @@
             <img src="./assets/img/photo.jpg" class="img-fluid img-thumbnail" alt="photo-anaïs" loading="lazy">
             <div id="about">
                 <h1>Hello, moi c'est Anaïs</h1>
-                <h2>Développeuse web</h2>
+                <h2>Développeuse Frontend</h2>
                 <div class="link-wrapper d-flex align-items-center">
                     <a class="button-href" href="./assets/docs/cv.pdf" target="_blank">Télécharger le CV</a>
                     <a href="https://www.linkedin.com/in/anaisjouanny/" target="blank"><img src="./assets/img/logo-linkedin.png" alt="Linkedin"></a>
@@ -195,43 +195,66 @@
             <div class="divider"></div>
             <h2>Portfolio</h2>
 
-            <div id="carouselIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="./assets/img/carrousel/lbcEmploi_SEA.png" target="blank">
-                            <img src="./assets/img/carrousel/couv_leboncoin_sea.png" class="d-block w-100 img-thumbnail" alt="leboncoin-SEA">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./assets/img/carrousel/BR_fb.PNG" target="blank">
-                            <img src="./assets/img/carrousel/couv_BR_facebook.png" class="d-block w-100 img-thumbnail" alt="Bloody_Rules-Facebook_ads">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./assets/img/carrousel/AVAL app.png" target="blank">
-                            <img src="./assets/img/carrousel/couv_avendrealouer_app.png" class="d-block w-100 img-thumbnail" alt="AVendreALouer-App_Download">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./assets/img/carrousel/Ohammam_SEA.png" target="blank">
-                            <img src="./assets/img/carrousel/couv_ohammam_sea.png" class="d-block w-100 img-thumbnail" alt="Ô_Hammam-SEA">
-                        </a>
+            <div class="d-flex justify-content-evenly flex-wrap">
+                <div class="project">
+                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/interactive-card.jpeg" alt="projet_interactive_card">
+                    <div class="project-infos hidden">
+                        <h3>Objectifs</h3>
+                        <ul> M'exercer sur plusieurs techniques du développement Frontend :
+                            <li>- React (structure d'une application en composants, gestion d'un state, JSX)</li>
+                            <li>- CSS (flexbox vs grid / dégradés / media queries)</li>
+                            <li>- SASS (utilisation de variables simples)</li>
+                            <li>- HTML5 (contraintes de validation des inputs d'un formulaire)</li>
+                        </ul>
+                        <h3>Outils</h3>
+                        <ul>
+                            <li>- HTML5</li>
+                            <li>- Mobile-first workflow</li>
+                            <li>- Flexbox et CSS Grid</li>
+                            <li>- SASS</li>
+                            <li>- React</li>
+                            <li>- J'ai choisi de ne pas utiliser de State centralisé au vue de la taille du projet</li>
+                        </ul>
+                        <a class="button-href button-code" href="https://github.com/anais-jouanny/interactive-card" target="_blank">Voir le code</a>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Précédent</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Suivant</span>
-                </button>
+
+                <div class="project">
+                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/pokedex.jpeg" alt="projet_pokedex_php">
+                    <div class="project-infos hidden">
+                        <h3>Objectifs</h3>
+                        <ul> Utiliser l'architecture MVC avec PHP dans son ensemble :
+                            <li>- Créer et mapper des routes dynamiques</li>
+                            <li>- Créer et manipuler une base de données (Select uniquement)</li>
+                            <li>- Passer des données aux vues via un controller</li>
+                        </ul>
+                        <h3>Outils</h3>
+                        <ul>
+                            <li>- MVC</li>
+                            <li>- PHP</li>
+                            <li>- MySQL</li>
+                            <li>- Adminer</li>
+                            <li>- AltoRouter</li>
+                        </ul>
+                        <a class="button-href button-code" href="https://github.com/anais-jouanny/pokedex-php" target="_blank">Voir le code</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/simpsons.jpeg" alt="projet_simpsons_js">
+                    <div class="project-infos hidden">
+                        <h3>Objectif</h3>
+                        <ul>
+                            <li>M'exercer à manipuler le DOM</li>
+                        </ul>
+                        <h3>Outils</h3>
+                        <ul>
+                            <li>Javascript</li>
+                        </ul>
+                        <a class="button-href button-code" href="https://anais-jouanny.github.io/simpson-js/" target="_blank">Voir le résultat</a>
+                    </div>
+                </div>
+                
             </div>
         </section>
 
@@ -241,5 +264,6 @@
             <a href="#" class="btn footer-button-top"><i class="bi bi-chevron-double-up"></i></a>
         </footer>
         
+        <script src="js/index.js"></script>
     </body>
 </html>
