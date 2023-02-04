@@ -134,6 +134,10 @@ header .img-thumbnail {
     color: #d9376e;
 }
 
+#skills a:hover {
+    color: #0d0d0d;
+}
+
 /* EXPERIENCES */
 #xp {
     background-color: #eff0f3;
@@ -291,6 +295,12 @@ header .img-thumbnail {
     font-weight: bold;
 }
 
+.education-block a {
+    display: block;
+    margin: 1em auto 0;
+    width: 80%;
+}
+
 /* PORTFOLIO */
 #portfolio {
     background-color: #eff0f3;
@@ -303,17 +313,22 @@ header .img-thumbnail {
     width: auto;
 }
 
+#portfolio img:hover {
+    border: 2px solid #ff8e3c;
+    cursor: pointer;
+}
+
 #portfolio .project {
     margin: 1em;
 }
 
 #portfolio .project ul {
-    margin: .8em 0;
+    margin: .5em 0 1.5em;
 }
 
 #portfolio .project-infos h3 {
     text-align: start;
-    margin: .5em 0;
+    margin-top: 1em;
     font-size: medium;
 }
 
@@ -323,7 +338,6 @@ header .img-thumbnail {
 }
 
 .button-code {
-    margin: 2em 0;
     font-size: small;
 }
 
