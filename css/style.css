@@ -5,13 +5,13 @@ body {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     color: #ff8e3c;
     font-weight: bolder;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
@@ -44,6 +44,7 @@ section {
     border: 2px solid #ff8e3c;
     border-radius: .3em;
     margin-right: .5em;
+    text-align: center;
 }
 
 .button-href:hover {
@@ -89,7 +90,7 @@ header .img-thumbnail {
 }
 
 #about h2 {
-    text-align: start;
+    text-align: center;
     margin: .7em 0 1.5em 0;
 }
 
@@ -234,6 +235,7 @@ header .img-thumbnail {
     font-weight: bold;
     text-align: left;
     margin: .2em 0;
+    font-size: 1em;
 }
 
 .timeline-panel h4 {
@@ -242,13 +244,13 @@ header .img-thumbnail {
 
 .timeline-panel h5 {
     color: #d9376e;
-    font-size: .8em;
+    font-size: .7em;
     margin-bottom: 1.5em;
 }
 
 .timeline-panel p {
     margin: .4em 0;
-    font-size: .8em;
+    font-size: .7em;
 }
 
 /* EDUCATION */
@@ -256,13 +258,13 @@ header .img-thumbnail {
     padding: 1em;
     text-align: center;
     background-color: #eff0f3;
-    width: 30%;
+    width: 38%;
     height: auto;
     border-radius: .5em;
 }
 
 .education-block:first-child {
-    margin-right: 3em;
+    margin-right: 2.5em;
 }
 
 .education-block > * {
@@ -270,7 +272,7 @@ header .img-thumbnail {
 }
 
 .education-block h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .education-block h4 {
@@ -295,10 +297,11 @@ header .img-thumbnail {
     font-weight: bold;
 }
 
-.education-block a {
+.education-block .button-href {
     display: block;
     margin: 1em auto 0;
     width: 80%;
+    font-size: .6em;
 }
 
 /* PORTFOLIO */
