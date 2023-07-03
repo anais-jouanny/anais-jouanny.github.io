@@ -1,287 +1,440 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
 
-        <title>CV Anaïs Jouanny</title>
-        <meta name="description" content="Bienvenue sur mon CV GitHub">
-        
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
-    </head>
+    <title>CV Anaïs Jouanny</title>
+    <meta name="description" content="Bienvenue sur mon CV GitHub" />
 
-    <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
 
-        <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#about">Home</a>
-                        <a class="nav-link" href="#skills">Compétences</a>
-                        <a class="nav-link" href="#xp">Expériences</a>
-                        <a class="nav-link" href="#education">Formations</a>
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </div>
-                </div>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#about"
+              >Home</a
+            >
+            <a class="nav-link" href="#skills">Compétences</a>
+            <a class="nav-link" href="#xp">Expériences</a>
+            <a class="nav-link" href="#education">Formations</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="d-flex justify-content-center align-items-center">
+      <img
+        src="./assets/img/photo.jpg"
+        class="img-fluid img-thumbnail"
+        alt="photo-anaïs"
+        loading="lazy"
+      />
+      <div id="about">
+        <p id="intro">Hello, moi c'est Anaïs</p>
+        <h1>Développeuse Frontend</h1>
+        <div class="link-wrapper d-flex align-items-center">
+          <a class="button-href" href="./assets/docs/cv.pdf" target="_blank"
+            >Télécharger le CV</a
+          >
+          <a href="https://www.linkedin.com/in/anaisjouanny/" target="blank"
+            ><img src="./assets/img/logo-linkedin.png" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/anais-jouanny" target="blank"
+            ><img src="./assets/img/logo-github.png" alt="Github"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <section id="skills">
+      <div class="divider"></div>
+      <h2>Compétences</h2>
+
+      <div class="skills-wrapper row">
+        <div id="skills-front" class="col-lg-6">
+          <h3><i class="bi bi-code-square"></i> Développement Frontend</h3>
+          <ul>
+            <li>HTML5 / CSS3 / SASS</li>
+            <li>Javascript ES6 / TypeScript</li>
+            <li>React / NextJS</li>
+            <li>Redux</li>
+          </ul>
+        </div>
+        <div id="skills-back" class="col-lg-6">
+          <h3><i class="bi bi-code-square"></i> Développement Backend</h3>
+          <ul>
+            <li>PHP (orienté objet, MVC, API Rest)</li>
+            <li>SQL</li>
+            <li>Laravel</li>
+          </ul>
+          <a href="#education">Plus de détails à la section "Formations"</a>
+        </div>
+      </div>
+
+      <div class="skills-wrapper row">
+        <div id="skills-mark" class="col-lg-6">
+          <h3><i class="bi bi-badge-ad"></i> Webmarketing</h3>
+          <ul>
+            <li>SEA / SEO</li>
+            <li>Social ads</li>
+            <li>Acquisition in-app</li>
+            <li>Web analytics</li>
+          </ul>
+        </div>
+        <div id="skills-tech" class="col-lg-6">
+          <h3><i class="bi bi-person"></i> Environnement Technique</h3>
+          <ul>
+            <li>Jest / Cypress</li>
+            <li>Git / Github</li>
+            <li>Peer / Mob programming</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="xp">
+      <div class="divider"></div>
+      <h2>Expériences</h2>
+
+      <ul class="timeline">
+        <li>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <p class="title-company">leboncoin</p>
+                <h3>Développeuse Frontend Web</h3>
+                <p class="title-job-date">
+                  <span class="bi-clock"></span> Depuis Mars 2023
+                </p>
+              </div>
+
+              <div class="timeline-body">
+                <p class="job-content">
+                  Technologies Frontend : React / NextJS / TypeScript.
+                </p>
+                <p class="job-content">Méthode agile.</p>
+                <p class="job-content">
+                  Développement de nouvelles fonctionnalités répondants aux
+                  problématiques de la Feature Team et de la Guilde
+                  (transverses).
+                </p>
+              </div>
             </div>
-        </nav>
-    
-        <header class="d-flex justify-content-center align-items-center">
-            <img src="./assets/img/photo.jpg" class="img-fluid img-thumbnail" alt="photo-anaïs" loading="lazy">
-            <div id="about">
-                <h1>Hello, moi c'est Anaïs</h1>
-                <h2>Développeuse Frontend junior</h2>
-                <div class="link-wrapper d-flex align-items-center">
-                    <a class="button-href" href="./assets/docs/cv.pdf" target="_blank">Télécharger le CV</a>
-                    <a href="https://www.linkedin.com/in/anaisjouanny/" target="blank"><img src="./assets/img/logo-linkedin.png" alt="Linkedin"></a>
-                    <a href="https://github.com/anais-jouanny" target="blank"><img src="./assets/img/logo-github.png" alt="Github"></a>
-                </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-panel-container">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <p class="title-company">leboncoin</p>
+                <h3>Acquisition payante</h3>
+                <p class="title-job-date">
+                  <span class="bi-clock"></span> Janvier 2018 - Septembre 2022
+                </p>
+              </div>
+
+              <div class="timeline-body">
+                <p class="job-content">
+                  Elaboration et mise en place de plans média online en accord
+                  avec les stratégies marché.
+                </p>
+                <p class="job-content">
+                  Création et Gestion des comptes Google ads sur chaque marché.
+                </p>
+                <p class="job-content">
+                  Gestion des leviers payants web et in-app.
+                </p>
+              </div>
             </div>
-        </header>
-    
-        <section id="skills">
-            <div class="divider"></div>
-            <h2>Compétences</h2>
+          </div>
+        </li>
 
-            <div class="skills-wrapper row">
-                <div id="skills-front" class="col-lg-6">
-                    <h3><i class="bi bi-code-square"></i>  Développement Frontend</h3>
-                    <ul>
-                        <li>HTML5 / CSS3 / SCSS</li>
-                        <li>Javascript Vanilla</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                    </ul>
-                    <a href="#education">Plus de détails à la section "Formations"</a>
-                </div>
-                <div id="skills-back" class="col-lg-6">
-                    <h3><i class="bi bi-code-square"></i>  Développement Backend</h3>
-                    <ul>
-                        <li>PHP (orienté objet, MVC, API Rest)</li>
-                        <li>SQL</li>
-                        <li>Laravel</li>
-                    </ul>
-                    <a href="#education">Plus de détails à la section "Formations"</a>
-                </div>
+        <li>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <p class="title-company">Solocal Group</p>
+                <h3>Acquisition payante et gratuite</h3>
+                <p class="title-job-date">
+                  <span class="bi-clock"></span> 2015-2017
+                </p>
+              </div>
+
+              <div class="timeline-body">
+                <p class="job-content">
+                  SEA : internalisation des comptes Google ads et Bing ads.
+                </p>
+                <p class="job-content">
+                  Gestion des leviers payants web et in-app.
+                </p>
+                <p class="job-content">
+                  SEO : pilotage de l'agence et définition de la roadmap.
+                </p>
+              </div>
             </div>
+          </div>
+        </li>
 
-            <div class="skills-wrapper row">
-                <div id="skills-mark" class="col-lg-6">
-                    <h3><i class="bi bi-badge-ad"></i>  Webmarketing</h3>
-                    <ul>
-                        <li>SEA / SEO</li>
-                        <li>Social ads</li>
-                        <li>Acquisition in-app</li>
-                        <li>Web analytics</li>
-                    </ul>
-                </div>
-                <div id="skills-soft" class="col-lg-6">
-                    <h3><i class="bi bi-person"></i>  Soft Skills</h3>
-                    <ul>
-                        <li>Motivation</li>
-                        <li>Empathie</li>
-                        <li>Sens du collectif</li>
-                        <li>Capacité d'adaptation</li>
-                    </ul>
-                </div>
+        <li>
+          <div class="timeline-panel-container">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <p class="title-company">Ad6Media</p>
+                <h3>Traffic Manager</h3>
+                <p class="title-job-date">
+                  <span class="bi-clock"></span> 2014-2015
+                </p>
+              </div>
+
+              <div class="timeline-body">
+                <p class="job-content">
+                  Programmation des campagnes Agences / Annonceurs.
+                </p>
+                <p class="job-content">
+                  Suivi du trafic et des performances des campagnes sur le
+                  réseau Ad6media.
+                </p>
+                <p class="job-content">
+                  Statistiques des campagnes par pays / format.
+                </p>
+              </div>
             </div>
-            
-        </section>
-    
-        <section id="xp">
-            <div class="divider"></div>
-            <h2>Expériences</h2>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-panel-container">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>leboncoin</h4>
-                                <h3>Acquisition payante</h3>
-                                <h5><span class="bi-clock"></span> Depuis Janvier 2018</h5>
-                            </div>
+    <section id="education">
+      <div class="divider"></div>
+      <h2>Formations</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="education-block col-md-6">
+          <p class="education-date">2014-2016</p>
+          <span class="bi-award"></span>
+          <p class="education-school">Sup Career, groupe INSEEC</p>
+          <h3>Master Management de projet Web</h3>
+          <div class="divider"></div>
+          <p class="education-content">
+            <span class="bold">Marketing digital</span> : Gestion de projet web,
+            SEO, SEA, Affiliation, PAO, Web analyse
+          </p>
+          <p class="education-content">
+            <span class="bold">Communication digitale</span> : Stratégie de
+            contenu, Social Media, e-CRM
+          </p>
+        </div>
 
-                            <div class="timeline-body">
-                                <p>Elaboration et mise en place de plans média online en accord avec les stratégies marché.</p>
-                                <p>Création et Gestion des comptes Google ads sur chaque marché.</p>
-                                <p>Gestion des leviers payants web et in-app.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+        <div class="education-block col-md-6">
+          <p class="education-date">2022-2023</p>
+          <span class="bi-award"></span>
+          <p class="education-school">O'Clock</p>
+          <h3>Titre Pro "Développeur Web et Web Mobile" niveau 5</h3>
+          <div class="divider"></div>
+          <p class="education-content">
+            <span class="bold">3 mois de Socle</span> : HTML5 / CSS3 /
+            Javascript / PHP / SQL / Laravel
+          </p>
+          <p class="education-content">
+            <span class="bold">1 mois de Spécialisation</span> : React / Redux
+          </p>
+          <p class="education-content">
+            <span class="bold">1 mois de Projet</span> : création de la SPA
+            "Day&Night"
+          </p>
+          <a
+            class="button-href"
+            href="./assets/docs/Programme-Oclock.pdf"
+            target="_blank"
+            >Details du programme</a
+          >
+        </div>
+      </div>
+    </section>
 
-                <li>
-                    <div class="timeline-panel-container-inverted">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Solocal Group</h4>
-                                <h3>Acquisition payante et gratuite</h3>
-                                <h5><span class="bi-clock"></span> 2015-2017</h5>
-                            </div>
+    <section id="portfolio">
+      <div class="divider"></div>
+      <h2>Portfolio</h2>
 
-                            <div class="timeline-body">
-                                <p>SEA : internalisation des comptes Google ads et Bing ads.</p>
-                                <p>Gestion des leviers payants web et in-app.</p>
-                                <p>SEO : pilotage de l'agence et définition de la roadmap.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="timeline-panel-container">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Ad6Media</h4>
-                                <h3>Traffic Manager</h3>
-                                <h5><span class="bi-clock"></span> 2014-2015</h5>
-                            </div>
-
-                            <div class="timeline-body">
-                                <p>Programmation des campagnes Agences / Annonceurs.</p>
-                                <p>Suivi du trafic et des performances des campagnes sur le réseau Ad6media.</p>
-                                <p>Statistiques des campagnes par pays / format.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
+      <div class="d-flex justify-content-evenly flex-wrap">
+        <div class="project">
+          <img
+            class="img-project img-thumbnail rounded img-fluid"
+            src="./assets/img/carrousel/interactive-card.jpeg"
+            alt="projet_interactive_card"
+          />
+          <div class="project-infos hidden">
+            <h3>Objectifs</h3>
+            <ul>
+              M'exercer sur plusieurs techniques du développement Frontend :
+              <li>
+                - React (structure d'une application en composants, gestion d'un
+                state, JSX)
+              </li>
+              <li>- CSS (flexbox vs grid / dégradés / media queries)</li>
+              <li>- SASS (utilisation de variables simples)</li>
+              <li>
+                - HTML5 (contraintes de validation des inputs d'un formulaire)
+              </li>
             </ul>
-        </section>
+            <h3>Outils</h3>
+            <ul>
+              <li>- HTML5</li>
+              <li>- Mobile-first workflow</li>
+              <li>- Flexbox et CSS Grid</li>
+              <li>- SASS</li>
+              <li>- React</li>
+            </ul>
+            <a
+              class="button-href button-code"
+              href="https://exuberant-honey.surge.sh/"
+              target="_blank"
+              >Voir le résultat</a
+            >
+          </div>
+        </div>
 
+        <div class="project">
+          <img
+            class="img-project img-thumbnail rounded img-fluid"
+            src="./assets/img/carrousel/todo.jpeg"
+            alt="projet_todo"
+          />
+          <div class="project-infos hidden">
+            <h3>Objectifs</h3>
+            <ul>
+              <li>- Utiliser React (hooks, router, state local et props)</li>
+              <li>- Créer une application CRUD avec les données du state</li>
+              <li>- Créer une application en mobile-first design</li>
+            </ul>
+            <h3>Outils</h3>
+            <ul>
+              <li>- HTML / CSS</li>
+              <li>- Mobile-first workflow</li>
+              <li>- React (Hooks et Router)</li>
+            </ul>
+            <a
+              class="button-href button-code"
+              href="https://lying-help.surge.sh/"
+              target="_blank"
+              >Voir le résultat</a
+            >
+          </div>
+        </div>
 
-        <section id="education">
-            <div class="divider"></div>
-            <h2>Formations</h2>
-            <div class="row d-flex justify-content-center">
+        <div class="project">
+          <img
+            class="img-project img-thumbnail rounded img-fluid"
+            src="./assets/img/carrousel/pokedex.jpeg"
+            alt="projet_pokedex_php"
+          />
+          <div class="project-infos hidden">
+            <h3>Objectifs</h3>
+            <ul>
+              Utiliser l'architecture MVC avec PHP dans son ensemble :
+              <li>- Créer et mapper des routes dynamiques</li>
+              <li>
+                - Créer et manipuler une base de données (Select uniquement)
+              </li>
+              <li>- Passer des données aux vues via un controller</li>
+            </ul>
+            <h3>Outils</h3>
+            <ul>
+              <li>- MVC</li>
+              <li>- PHP</li>
+              <li>- MySQL</li>
+              <li>- Adminer</li>
+              <li>- AltoRouter</li>
+            </ul>
+            <a
+              class="button-href button-code"
+              href="https://github.com/anais-jouanny/pokedex-php"
+              target="_blank"
+              >Voir le code</a
+            >
+          </div>
+        </div>
 
-                <div class="education-block col-md-6">
-                    <h5>2014-2016</h5>
-                    <span class="bi-award"></span>
-                    <h4>Sup Career, groupe INSEEC</h4>
-                    <h3>Master Management de projet Web</h3>
-                    <div class="divider"></div>
-                    <p><span class="bold">Marketing digital</span> : Gestion de projet web, SEO, SEA, Affiliation, PAO, Web analyse</p>
-                    <p><span class="bold">Communication digitale</span> : Stratégie de contenu, Social Media, e-CRM</p>
-                </div>
+        <div class="project">
+          <img
+            class="img-project img-thumbnail rounded img-fluid"
+            src="./assets/img/carrousel/simpsons.jpeg"
+            alt="projet_simpsons_js"
+          />
+          <div class="project-infos hidden">
+            <h3>Objectif</h3>
+            <ul>
+              <li>M'exercer à manipuler le DOM</li>
+            </ul>
+            <h3>Outils</h3>
+            <ul>
+              <li>Javascript</li>
+            </ul>
+            <a
+              class="button-href button-code"
+              href="https://anais-jouanny.github.io/simpson-js/"
+              target="_blank"
+              >Voir le résultat</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="education-block col-md-6">
-                    <h5>2022-2023</h5>
-                    <span class="bi-award"></span>
-                    <h4>O'Clock</h4>
-                    <h3>Titre Pro "Développeur Web et Web Mobile" niveau 5</h3>
-                    <div class="divider"></div>
-                    <p><span class="bold">3 mois de Socle</span> : HTML5 / CSS3 / Javascript / PHP / SQL / Laravel</p>
-                    <p><span class="bold">1 mois de Spécialisation</span> : React / Redux </p>
-                    <p><span class="bold">1 mois de Projet</span> : création de la SPA "Day&Night"</p>
-                    <a class="button-href" href="./assets/docs/Programme-Oclock.pdf" target="_blank">Details du programme</a>
-                </div>
+    <footer class="d-flex justify-content-center">
+      <a href="https://www.linkedin.com/in/anaisjouanny/" target="blank"
+        ><img src="./assets/img/logo-linkedin.png" alt="Linkedin"
+      /></a>
+      <a href="https://github.com/anais-jouanny" target="blank"
+        ><img src="./assets/img/logo-github.png" alt="Github"
+      /></a>
+      <a href="#" class="btn footer-button-top"
+        ><i class="bi bi-chevron-double-up"></i
+      ></a>
+    </footer>
 
-            </div>
-        </section>
-
-
-        <section id="portfolio">
-            <div class="divider"></div>
-            <h2>Portfolio</h2>
-
-            <div class="d-flex justify-content-evenly flex-wrap">
-                <div class="project">
-                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/interactive-card.jpeg" alt="projet_interactive_card">
-                    <div class="project-infos hidden">
-                        <h3>Objectifs</h3>
-                        <ul> M'exercer sur plusieurs techniques du développement Frontend :
-                            <li>- React (structure d'une application en composants, gestion d'un state, JSX)</li>
-                            <li>- CSS (flexbox vs grid / dégradés / media queries)</li>
-                            <li>- SASS (utilisation de variables simples)</li>
-                            <li>- HTML5 (contraintes de validation des inputs d'un formulaire)</li>
-                        </ul>
-                        <h3>Outils</h3>
-                        <ul>
-                            <li>- HTML5</li>
-                            <li>- Mobile-first workflow</li>
-                            <li>- Flexbox et CSS Grid</li>
-                            <li>- SASS</li>
-                            <li>- React</li>
-                        </ul>
-                        <a class="button-href button-code" href="https://exuberant-honey.surge.sh/" target="_blank">Voir le résultat</a>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/todo.jpeg" alt="projet_todo">
-                    <div class="project-infos hidden">
-                        <h3>Objectifs</h3>
-                        <ul>
-                            <li>- Utiliser React (hooks, router, state local et props)</li>
-                            <li>- Créer une application CRUD avec les données du state</li>
-                            <li>- Créer une application en mobile-first design</li>
-                        </ul>
-                        <h3>Outils</h3>
-                        <ul>
-                            <li>- HTML / CSS</li>
-                            <li>- Mobile-first workflow</li>
-                            <li>- React (Hooks et Router)</li>
-                        </ul>
-                        <a class="button-href button-code" href="https://lying-help.surge.sh/" target="_blank">Voir le résultat</a>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/pokedex.jpeg" alt="projet_pokedex_php">
-                    <div class="project-infos hidden">
-                        <h3>Objectifs</h3>
-                        <ul> Utiliser l'architecture MVC avec PHP dans son ensemble :
-                            <li>- Créer et mapper des routes dynamiques</li>
-                            <li>- Créer et manipuler une base de données (Select uniquement)</li>
-                            <li>- Passer des données aux vues via un controller</li>
-                        </ul>
-                        <h3>Outils</h3>
-                        <ul>
-                            <li>- MVC</li>
-                            <li>- PHP</li>
-                            <li>- MySQL</li>
-                            <li>- Adminer</li>
-                            <li>- AltoRouter</li>
-                        </ul>
-                        <a class="button-href button-code" href="https://github.com/anais-jouanny/pokedex-php" target="_blank">Voir le code</a>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img class="img-project img-thumbnail rounded img-fluid" src="./assets/img/carrousel/simpsons.jpeg" alt="projet_simpsons_js">
-                    <div class="project-infos hidden">
-                        <h3>Objectif</h3>
-                        <ul>
-                            <li>M'exercer à manipuler le DOM</li>
-                        </ul>
-                        <h3>Outils</h3>
-                        <ul>
-                            <li>Javascript</li>
-                        </ul>
-                        <a class="button-href button-code" href="https://anais-jouanny.github.io/simpson-js/" target="_blank">Voir le résultat</a>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-
-        <footer class="d-flex justify-content-center">
-            <a href="https://www.linkedin.com/in/anaisjouanny/" target="blank"><img src="./assets/img/logo-linkedin.png" alt="Linkedin"></a>
-            <a href="https://github.com/anais-jouanny" target="blank"><img src="./assets/img/logo-github.png" alt="Github"></a>
-            <a href="#" class="btn footer-button-top"><i class="bi bi-chevron-double-up"></i></a>
-        </footer>
-        
-        <script src="js/index.js"></script>
-    </body>
+    <script src="js/index.js"></script>
+  </body>
 </html>
